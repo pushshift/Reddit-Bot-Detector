@@ -17,3 +17,7 @@ The output from this script has the following data (CSV format):
 7) The average Ratcliff/Obershelp ratio
 8) The author for the comments
 
+Example using the August, 2017 Reddit comment dump:
+
+bzip2 -cd RC_2017-08.bz2 | ./RedditBotDetector.py > bots.csv
+
