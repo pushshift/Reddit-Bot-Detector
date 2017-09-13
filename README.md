@@ -21,3 +21,4 @@ Example using the August, 2017 Reddit comment dump:
 
 bzip2 -cd RC_2017-08.bz2 | ./RedditBotDetector.py > bots.csv
 
+**The most likely bot candidates are towards the top of the list.  As the response time increases, the probability of the account being human also increases.**
